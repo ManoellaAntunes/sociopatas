@@ -1,0 +1,61 @@
+body {
+    background-image: url(/img/wallpaper.jpg);
+    background-size: cover; 
+}
+
+
+.forms {
+    display: flex;
+}
+
+.container-adotante, .container-ong {
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    display: block;
+    width: 400px;
+    height: 450px;
+backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.container-adotante {
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-right: auto;
+
+
+}
+
+.container-ong {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right:500px;
+
+}
+
+.form-control {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    border-radius: 20px;
+    color: black;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-group {
+    color: rgb(0, 0, 0);
+}
+
+.botao {
+    color: white;
+    background-color: rgb(124, 51, 8);
+    border-radius: 20px;
+    width: 190px;
+    height: 40px;
+}
+
+.botao:hover {
+    background-color: green;
+    transition: 1.5s;
+}
